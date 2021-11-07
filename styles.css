@@ -5,3 +5,8 @@
   display: flex;
   justify-content: space-around;
 }
+
+.flag_img{
+  border: 1px solid black;
+  width: 460px;
+}
