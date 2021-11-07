@@ -21584,7 +21584,7 @@ var templateFunction = _handlebars.default.template({
           "column": 17
         }
       }
-    })) != null ? stack1 : "") + "    </ul>\n</h2></div>\n\n<img src=\"" + alias4(container.lambda((stack1 = depth0 != null ? lookupProperty(depth0, "flags") : depth0) != null ? lookupProperty(stack1, "png") : stack1, depth0)) + "\" alt=\"\" width=\"300\" height=\"300\"></div>";
+    })) != null ? stack1 : "") + "    </ul>\n</h2></div>\n\n<img src=\"" + alias4(container.lambda((stack1 = depth0 != null ? lookupProperty(depth0, "flags") : depth0) != null ? lookupProperty(stack1, "png") : stack1, depth0)) + "\" alt=\"flag\" class=\"flag_img\" width=\"300\" height=\"300\"></div>";
   },
   "useData": true
 });
@@ -21773,7 +21773,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "8298" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "8463" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
