@@ -4,9 +4,21 @@
 .container {
   display: flex;
   justify-content: space-around;
+  background-color: rgba(94, 94, 94, 0.753);
+  padding: 20px 30px;
+  text-decoration: underline;
 }
 
 .flag_img{
   border: 1px solid black;
   width: 460px;
+}
+
+.input{
+  font-size: 24px;
+  border-radius: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
 }
